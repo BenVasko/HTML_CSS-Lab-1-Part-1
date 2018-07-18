@@ -1,0 +1,66 @@
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 22px;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .navigation {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    h1, h4, p {
+        margin: 1% 2%;
+    }
+
+    .navigation div {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 2%;
+    }
+
+    .navigation div a {
+        margin: 1% 0;
+    }
+
+    .navigation span {
+        margin: 1% 0 7% 0;
+    }
+    
+    .bottom-box {
+        margin: 7% 0 0 0;
+        display: block;
+        position: relative;
+    }
+
+    .navigation span, .bottom-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .scroll-down {
+        display: block;
+        position: fixed;
+        bottom: 5%;
+    }
+    
+    span a, .scroll-down  {
+        width: 92%;
+        border-radius: 25px;
+        padding: 2%;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    p {
+        padding: 0 3%;
+        margin: 4% 2%;
+    }
+}

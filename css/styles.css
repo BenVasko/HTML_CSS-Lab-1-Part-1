@@ -8,125 +8,137 @@ body {
     color: #f9fafc;
 }
 
-h4, h2 {
+ h4, h1 {
     color: #000;
 }
 
-.company-logo {
-    width: 40%;
-    display: inline-block;
-    float: left;
-    margin: 2% 0 1% 2%;
-}
-
-.navigation {
-    width: 40%;
-    display: inline-block;
-    float: right;
-    margin: 2% 2% 1% 0;
-    position: relative;
-}
-
-.navigation a {
-    float: right;
-    margin: 0 1.5%;
-}
-
-section div {
-    margin: 1%;
+p {
+    border-left: 3px solid #69696a;
+    color: #69696a;
 }
 
 div a {
     color: #69696a;
 }
 
-.clear {
-    width: 100%;
-    margin: 5%;
-    clear: both;
-}
-
-.company-statement {
-    width: 49%;
-    float: left;
-    display: inline-block;
-    margin: 1% 0 1% 2%;
-}
-
-h2 {
-    margin-bottom: 3%;
-}
-
-p {
-    padding: 1% 0 0 3%;
-    border-left: 3px solid #69696a;
-    color: #69696a;
-}
-
-.circles {
-    width: 45%;
-    float: right;
-    padding-bottom: 30%;
-    margin: 1% 2% 0 1%;
-    position: relative;
-}
-
-.circle1 {
-    background: rgba(247, 193, 162, 0.7);
-    height: 185px;
-    width: 185px;
-    border-radius: 50%;
-    left: 65.5%;
-    top: 45%;
-    position: absolute;
-}
-
-.circle2 {
-    background: rgba(207, 130, 213, 0.6);
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    position: absolute;
-    left: 71.5%;
-    top: 15%;
-
-}
-
-.circle3 {
-    background: rgba(247, 136, 167, 0.6);
-    height: 275px;
-    width: 275px;
-    border-radius: 50%;
-    position: absolute;
-    left: 33%;
-    top: 14%;
-}
-
-.clear2 {
-    clear: both;
-}
-
-.scroll-down {
-    width: 7%;
-    display: block;
-    margin: 0;
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 5%;
-    padding: 1% 2%;
-    border-radius: 20px;
-}
-
-span a {
-    width: 11%;
-    padding: 1% 4%;
-    margin-right: 0;
-    border-radius: 20px;
-}
-
 span a, .scroll-down {
     color: #f9fafc;
     background: #000;
     text-align: center;
+}
+
+@media only screen and (min-width: 481px) {
+    nav {
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
+
+    .company-logo {
+        width: 40%;
+        display: flex;
+        float: left;
+        justify-content: flex-start;
+        margin: 2% 0 1% 2%;
+    }
+    
+    .navigation {
+        width: 40%;
+        display: inline-block;
+        float: right;
+        margin: 2% 2% 1% 0;
+        position: relative;
+    }
+    
+    .navigation a {
+        float: right;
+        margin: 0 1.5%;
+    }
+    
+    section div {
+        margin: 1%;
+    }
+    
+    .clear {
+        width: 100%;
+        margin: 5%;
+        clear: both;
+    }
+    
+    .company-statement {
+        width: 49%;
+        float: left;
+        display: inline-block;
+        margin: 1% 0 1% 2%;
+    }
+    
+    h1 {
+        margin-bottom: 3%;
+    }
+    
+    p {
+        padding: 1% 0 0 3%;
+    }
+    
+    .circles {
+        width: 45%;
+        float: right;
+        padding-bottom: 30%;
+        margin: 1% 2% 0 1%;
+        position: relative;
+    }
+    
+    .circle1 {
+        background: rgba(247, 193, 162, 0.7);
+        height: 185px;
+        width: 185px;
+        border-radius: 50%;
+        left: 65.5%;
+        top: 45%;
+        position: absolute;
+    }
+    
+    .circle2 {
+        background: rgba(207, 130, 213, 0.6);
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        position: absolute;
+        left: 71.5%;
+        top: 15%;
+    
+    }
+    
+    .circle3 {
+        background: rgba(247, 136, 167, 0.6);
+        height: 275px;
+        width: 275px;
+        border-radius: 50%;
+        position: absolute;
+        left: 33%;
+        top: 14%;
+    }
+    
+    .clear2 {
+        clear: both;
+    }
+    
+    .scroll-down {
+        width: 7%;
+        display: block;
+        margin: 0;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 5%;
+        padding: 1% 2%;
+        border-radius: 20px;
+    }
+    
+    span a {
+        width: 11%;
+        padding: 1% 4%;
+        margin-right: 0;
+        border-radius: 20px;
+    }
 }
